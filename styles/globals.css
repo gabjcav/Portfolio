@@ -5,7 +5,14 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+:root {
+  --deep-purple: #0c0032;
+  --semi-deep-purple: #190061;
+  --purple: #240090;
+  --light-purple: #3500d3;
+  --gray: #282828;
+  --dark-gray: #121113;
+}
 * {
   box-sizing: border-box;
 }

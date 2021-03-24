@@ -2,14 +2,13 @@ import styled from 'styled-components'
 import Link from 'next/link'
 const NavStyle = styled.nav`
   display: flex;
-  color: #f2aa4cff;
+  color: white;
   align-items: center;
-  background-color: #101820ff;
+  background-color: var(--gray);
   height: 100px;
   margin-bottom: 40px;
   ul {
     display: flex;
-    flex: right;
     list-style: none;
     text-decoration: none;
     align-items: center;
@@ -19,11 +18,11 @@ const NavStyle = styled.nav`
     max-width: 20%;
     justify-content: space-between;
     li {
-      padding: 10px;
-      border: 2px solid #101820ff;
+      padding: 10px 20px;
+      border-radius: 5px;
       &:hover {
-        border: 2px solid #f2aa4cff;
-        border-radius: 2px;
+        background-color: var(--semi-deep-purple);
+        border-radius: 5px;
       }
     }
   }
@@ -37,7 +36,7 @@ const NavBar = () => {
           <Link href={'/'}>Home</Link>
         </li>
         <li>
-          <Link href={'/work'}>Work</Link>
+          <Link href={'/projects'}>Projects</Link>
         </li>
         <li>
           <Link href={'/about'}>About</Link>

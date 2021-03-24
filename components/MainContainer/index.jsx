@@ -11,8 +11,29 @@ const MainContainer = styled.main`
     background-color: #101820ff;
     width: 12%;
     padding: 10px;
-    color: #f2aa4cff;
     border-radius: 2px;
+  }
+
+  .container {
+    border-radius: 5px;
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 1.7%;
+
+    .project {
+      margin-left: 0;
+      height: 70%;
+      width: 80%;
+      background-color: var(--gray);
+      border-radius: 3px;
+    }
   }
 `
 

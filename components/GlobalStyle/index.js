@@ -6,7 +6,9 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         margin: 0;
         font-family: 'Oswald';
-        height: 100%;  
+        height: 100%; 
+        background-color: var(--dark-gray); 
+        color: white; 
     }
 `
 
