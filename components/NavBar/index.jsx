@@ -7,6 +7,7 @@ const NavStyle = styled.nav`
   background-color: var(--gray);
   height: 100px;
   margin-bottom: 40px;
+  box-shadow: 6px 5px 5px -4px rgba(0, 0, 0, 0.59);
   ul {
     display: flex;
     list-style: none;
@@ -21,7 +22,7 @@ const NavStyle = styled.nav`
       padding: 10px 20px;
       border-radius: 5px;
       &:hover {
-        background-color: var(--semi-deep-purple);
+        background-color: var(--semi-dark-gray);
         border-radius: 5px;
       }
     }

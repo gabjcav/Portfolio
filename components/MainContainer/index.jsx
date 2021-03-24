@@ -15,7 +15,6 @@ const MainContainer = styled.main`
   }
 
   .container {
-    border-radius: 5px;
     width: 60%;
     height: 500px;
     margin: 0 auto;
@@ -32,7 +31,8 @@ const MainContainer = styled.main`
       height: 70%;
       width: 80%;
       background-color: var(--gray);
-      border-radius: 3px;
+      border-radius: 5px;
+      box-shadow: 6px 5px 5px -4px rgba(0, 0, 0, 0.59);
     }
   }
 `
