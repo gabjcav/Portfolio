@@ -3,7 +3,9 @@ import ProjectTitle from '../components/ProjectTitle'
 const Work = () => {
   return (
     <>
-      <PageTitle>- Projects -</PageTitle>
+      <PageTitle>
+        <span>-</span> Projects <span>-</span>
+      </PageTitle>
       <div className="container projects">
         <article className="project">
           <ProjectTitle className="title">BØRRES BURGERSHOP</ProjectTitle>

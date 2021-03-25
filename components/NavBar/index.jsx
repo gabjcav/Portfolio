@@ -5,7 +5,8 @@ const NavStyle = styled.nav`
   color: white;
   align-items: center;
   background-color: var(--gray);
-  height: 100px;
+  height: 60px;
+  margin-top: 1%;
   margin-bottom: 40px;
   box-shadow: 6px 5px 5px -4px rgba(0, 0, 0, 0.59);
   ul {
@@ -19,10 +20,10 @@ const NavStyle = styled.nav`
     max-width: 20%;
     justify-content: space-between;
     li {
-      padding: 10px 20px;
+      padding: 5px 15px;
       border-radius: 5px;
       &:hover {
-        background-color: var(--semi-dark-gray);
+        background-color: var(--dark-gray);
         border-radius: 5px;
       }
     }

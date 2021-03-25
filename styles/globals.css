@@ -10,9 +10,11 @@ a {
   --semi-deep-purple: #190061;
   --purple: #240090;
   --light-purple: #3500d3;
-  --gray: #282828;
-  --semi-dark-gray: #1b1a1d;
-  --dark-gray: #121113;
+  --light-green: #86c232;
+  --dark-green: #61892f;
+  --gray: #474b4f;
+  --semi-dark-gray: #363c41;
+  --dark-gray: #222629;
 }
 * {
   box-sizing: border-box;

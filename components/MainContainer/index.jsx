@@ -8,9 +8,10 @@ const MainContainer = styled.main`
     margin: 0 auto;
     margin-top: 50px;
     text-align: center;
-    background-color: #101820ff;
-    width: 12%;
+    width: 30%;
     padding: 10px;
+    font-weight: 300;
+    font-size: 3rem;
     border-radius: 2px;
   }
 
@@ -33,6 +34,11 @@ const MainContainer = styled.main`
       background-color: var(--gray);
       border-radius: 5px;
       box-shadow: 6px 5px 5px -4px rgba(0, 0, 0, 0.59);
+    }
+  }
+  .about {
+    p {
+      font-size: 1.2rem;
     }
   }
 `
