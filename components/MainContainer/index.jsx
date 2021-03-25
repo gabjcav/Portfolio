@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const MainContainer = styled.main`
   width: 100vw;
   height: 100%;
-  margin-top: 10%;
+  margin-top: 5%;
   h2 {
     margin: 0 auto;
     margin-top: 50px;
@@ -34,11 +34,35 @@ const MainContainer = styled.main`
       background-color: var(--gray);
       border-radius: 5px;
       box-shadow: 6px 5px 5px -4px rgba(0, 0, 0, 0.59);
+      .info-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        min-height: 70%;
+        .link.container {
+          text-align: center;
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
     }
   }
   .about {
+    background-color: var(--gray);
+    height: 650px;
+    border-radius: 5px;
+    box-shadow: 6px 5px 5px -4px rgba(0, 0, 0, 0.59);
     p {
       font-size: 1.2rem;
+    }
+    .skill-container {
+      margin: 6% 0;
+    }
+    ul {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin-bottom: 10%;
     }
   }
 `

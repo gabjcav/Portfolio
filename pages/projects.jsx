@@ -1,8 +1,25 @@
 import PageTitle from '../components/PageTitle'
+import { motion } from 'framer-motion'
 import ProjectTitle from '../components/ProjectTitle'
 const Work = () => {
   return (
-    <>
+    <motion.div
+      initial="hidden"
+      animate="visible"
+      variants={{
+        visible: {
+          opacity: 1,
+          scale: 1,
+          transition: {
+            delay: 0.1,
+          },
+        },
+        hidden: {
+          opacity: 0,
+          scale: 0.8,
+        },
+      }}
+    >
       <PageTitle>
         <span>-</span> Projects <span>-</span>
       </PageTitle>
@@ -16,7 +33,9 @@ const Work = () => {
               <li>Firebase/Firestore</li>
               <li>Styled Components</li>
             </ul>
-            <a href="https://github.com/gabjcav/tema-6">Github</a>
+            <div className="link-container">
+              <a href="https://www.facebook.com/">Github</a>
+            </div>
           </div>
         </article>
         <article className="project">
@@ -27,7 +46,9 @@ const Work = () => {
               <li>CSS</li>
               <li>HTML5</li>
             </ul>
-            <a href="https://www.facebook.com/">Github</a>
+            <div className="link-container">
+              <a href="https://www.facebook.com/">Github</a>
+            </div>
           </div>
         </article>
         <article className="project">
@@ -37,7 +58,9 @@ const Work = () => {
               <li>React</li>
               <li>SASS/SCSS</li>
             </ul>
-            <a href="https://github.com/gabjcav/tema-6">Github</a>
+            <div className="link-container">
+              <a href="https://www.facebook.com/">Github</a>
+            </div>
           </div>
         </article>
         <article className="project">
@@ -49,11 +72,13 @@ const Work = () => {
               <li>CosmicJS</li>
               <li>Styled Components</li>
             </ul>
-            <a href="https://github.com/gabjcav/tema-6">Github</a>
+            <div className="link-container">
+              <a href="https://www.facebook.com/">Github</a>
+            </div>
           </div>
         </article>
       </div>
-    </>
+    </motion.div>
   )
 }
 
