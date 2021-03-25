@@ -1,5 +1,4 @@
-import styled, { keyframes } from 'styled-components'
-import slideInDown from 'react-animations/lib/slide-in-down'
+import styled from 'styled-components'
 const PageTitle = styled.h1`
   font-size: 6rem;
   font-weight: 500;
@@ -7,7 +6,6 @@ const PageTitle = styled.h1`
   text-align: center;
   border-radius: 5px;
   max-width: 37%;
-  /* animation: 1s ${keyframes(slideInDown)}; */
   padding: 10px;
   color: whitesmoke;
   span {
