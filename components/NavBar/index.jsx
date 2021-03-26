@@ -5,7 +5,7 @@ const NavStyle = styled.nav`
   color: var(--dark-gray);
   align-items: center;
   height: 60px;
-
+  font-family: 'Lato', sans-serif;
   ul {
     margin-top: 10%;
     margin-left: 3%;
@@ -23,11 +23,8 @@ const NavStyle = styled.nav`
     border-radius: 4px;
     li {
       border-radius: 5px;
-      text-shadow: 0.5px 2px var(--light-green);
-      letter-spacing: 2px;
+      color: white;
       &:hover {
-        background-color: var(--dark-gray);
-        border-radius: 5px;
         color: var(--light-green);
       }
     }

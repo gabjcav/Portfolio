@@ -45,6 +45,10 @@ const Work = () => {
           className="project"
         >
           <ProjectTitle className="title">BØRRES BURGERSHOP</ProjectTitle>
+          <p className="desc">
+            An automated ordering system for a fictive burgershop. Create a user before making an
+            order.
+          </p>
           <div className="info-container">
             <ul>
               <li>React</li>
@@ -78,6 +82,10 @@ const Work = () => {
           className="project"
         >
           <ProjectTitle className="title">COLOR GAME</ProjectTitle>
+          <p className="desc">
+            A game where you have to guess the correct RGB-color. Has easy and hard mode.
+          </p>
+          <img className="project-image" src="/img/CG.PNG" />
           <div className="info-container">
             <ul>
               <li>JavaScript</li>
@@ -110,6 +118,8 @@ const Work = () => {
           className="project"
         >
           <ProjectTitle className="title">TO-DO LIST</ProjectTitle>
+          <p className="desc">A simple to-do list application. Written in React. </p>
+          <img className="project-image" src="/img/TL.PNG" />
           <div className="info-container">
             <ul>
               <li>React</li>
@@ -141,6 +151,10 @@ const Work = () => {
           className="project"
         >
           <ProjectTitle className="title">INTERACTIVE MAP</ProjectTitle>
+          <p className="desc">
+            An interactive map over my favorite places to visit. Made using the MapBox API.
+          </p>
+          <img className="project-image" src="/img/MB.PNG" />
           <div className="info-container">
             <ul>
               <li>React</li>
