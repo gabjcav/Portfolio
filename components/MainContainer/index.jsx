@@ -33,7 +33,7 @@ const MainContainer = styled.main`
 
     .project {
       margin-left: 0;
-      height: 70%;
+      height: 90%;
       width: 80%;
       background-color: var(--gray);
       border-radius: 5px;
@@ -45,6 +45,9 @@ const MainContainer = styled.main`
         align-items: center;
         justify-content: center;
         min-height: 70%;
+        ul {
+          min-height: 96px;
+        }
 
         .link-container {
           display: flex;
@@ -57,10 +60,10 @@ const MainContainer = styled.main`
     }
   }
   .about {
-    background-color: var(--gray);
     height: 650px;
     border-radius: 5px;
-    box-shadow: 6px 5px 5px -4px rgba(0, 0, 0, 0.59);
+    margin-top: 4%;
+    width: 40%;
     #contact {
       color: var(--light-green);
     }

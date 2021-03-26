@@ -2,29 +2,33 @@ import styled from 'styled-components'
 import Link from 'next/link'
 const NavStyle = styled.nav`
   display: flex;
-  color: white;
+  color: var(--dark-gray);
   align-items: center;
-  background-color: var(--gray);
   height: 60px;
-  margin-top: 1%;
-  margin-bottom: 40px;
-  box-shadow: 6px 5px 5px -4px rgba(0, 0, 0, 0.59);
+
   ul {
+    margin-top: 10%;
+    margin-left: 3%;
     display: flex;
     list-style: none;
     text-decoration: none;
-    align-items: center;
-    flex-direction: row;
-    font-size: 1.6rem;
-    min-width: 15%;
+    align-items: left;
+    flex-direction: column;
+    font-size: 2rem;
     max-width: 20%;
+    gap: 8px;
     justify-content: space-between;
+    padding-inline-start: 0px;
+    padding: 20px;
+    border-radius: 4px;
     li {
-      padding: 5px 15px;
       border-radius: 5px;
+      text-shadow: 0.5px 2px var(--light-green);
+      letter-spacing: 2px;
       &:hover {
         background-color: var(--dark-gray);
         border-radius: 5px;
+        color: var(--light-green);
       }
     }
   }
@@ -35,13 +39,10 @@ const NavBar = () => {
     <NavStyle>
       <ul>
         <li>
-          <Link href={'/'}>Home</Link>
+          <Link href={'/'}>About</Link>
         </li>
         <li>
           <Link href={'/projects'}>Projects</Link>
-        </li>
-        <li>
-          <Link href={'/about'}>About</Link>
         </li>
       </ul>
     </NavStyle>

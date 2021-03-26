@@ -54,7 +54,7 @@ const Work = () => {
             </ul>
             <div className="link-container">
               <a href="https://github.com/gabjcav/tema-6">
-                <Image width="30px" height="30px" src="/img/github2.png" />
+                <Image width="40px" height="40px" src="/img/github2.png" />
               </a>
             </div>
           </div>
@@ -86,7 +86,7 @@ const Work = () => {
             </ul>
             <div className="link-container">
               <a href="https://github.com/gabjcav/tema-6">
-                <Image width="30px" height="30px" src="/img/github2.png" />
+                <Image width="40px" height="40px" src="/img/github2.png" />
               </a>
             </div>
           </div>
@@ -109,7 +109,7 @@ const Work = () => {
           }}
           className="project"
         >
-          <ProjectTitle className="title">TODO-LIST</ProjectTitle>
+          <ProjectTitle className="title">TO-DO LIST</ProjectTitle>
           <div className="info-container">
             <ul>
               <li>React</li>
@@ -117,7 +117,7 @@ const Work = () => {
             </ul>
             <div className="link-container">
               <a href="https://github.com/gabjcav/tema-6">
-                <Image width="30px" height="30px" src="/img/github2.png" />
+                <Image width="40px" height="40px" src="/img/github2.png" />
               </a>
             </div>
           </div>
@@ -150,7 +150,7 @@ const Work = () => {
             </ul>
             <div className="link-container">
               <a href="https://github.com/gabjcav/tema-6">
-                <Image width="30px" height="30px" src="/img/github2.png" />
+                <Image width="40px" height="40px" src="/img/github2.png" />
               </a>
             </div>
           </div>
