@@ -45,7 +45,7 @@ const MainContainer = styled.main`
         height: 50px;
       }
       .project-image {
-        width: 70%;
+        width: 90%;
         margin: 0 auto;
         height: 70px;
       }

@@ -49,6 +49,7 @@ const Work = () => {
             An automated ordering system for a fictive burgershop. Create a user before making an
             order.
           </p>
+          <img className="project-image" src="/img/BB2.PNG" />
           <div className="info-container">
             <ul>
               <li>React</li>
@@ -154,7 +155,7 @@ const Work = () => {
           <p className="desc">
             An interactive map over my favorite places to visit. Made using the MapBox API.
           </p>
-          <img className="project-image" src="/img/MB.PNG" />
+          <img className="project-image" src="/img/MB2.PNG" />
           <div className="info-container">
             <ul>
               <li>React</li>
