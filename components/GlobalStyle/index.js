@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
     body {
         padding: 0;
         margin: 0;
-        font-family: 'Oswald';
+        font-family: 'Roboto Condensed';
         height: 100%; 
         background-color: var(--dark-gray); 
         color: white; 

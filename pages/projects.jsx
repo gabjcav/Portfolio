@@ -53,8 +53,8 @@ const Work = () => {
           <div className="info-container">
             <ul>
               <li>React</li>
-              <li>NextJs</li>
               <li>Firebase/Firestore</li>
+              <li>NextJs</li>
               <li>Styled Components</li>
             </ul>
             <div className="link-container">
@@ -124,7 +124,7 @@ const Work = () => {
           <div className="info-container">
             <ul>
               <li>React</li>
-              <li>SASS/SCSS</li>
+              <li>SASS</li>
             </ul>
             <div className="link-container">
               <a href="https://github.com/gabjcav/tema-6">
