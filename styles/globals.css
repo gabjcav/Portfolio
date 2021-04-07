@@ -1,23 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
-html,
-a {
-  color: inherit;
-  text-decoration: none;
-}
-:root {
-  --deep-purple: #0c0032;
-  --semi-deep-purple: #190061;
-  --purple: #240090;
-  --light-purple: #3500d3;
 
-  --light-green: #86c232;
-  --dark-green: #61892f;
-  --gray: #474b4f;
-  --semi-dark-gray: #363c41;
-  --dark-gray: #222629;
-}
-* {
-  box-sizing: border-box;
-}
+/* ONLY FONTS */
+/* OTHER GLOBAL STYLING CAN BE FOUND IN COMPONENTS/GLOBALSTYLE */

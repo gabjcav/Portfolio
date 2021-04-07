@@ -12,12 +12,16 @@ const PageTitle = styled.h1`
     color: var(--light-green);
   }
   #lastname {
-    color: white;
+    color: whitesmoke;
   }
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    font-size: 2rem;
+    font-size: 2.6rem;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */

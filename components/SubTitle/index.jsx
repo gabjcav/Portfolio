@@ -1,20 +1,16 @@
 import styled from 'styled-components'
 
-const MainContainer = styled.main`
-  width: 100vw;
-  height: 100%;
-  margin-top: 5%;
-
-  #work {
-    border: 1px dashed var(--light-green);
-    padding: 15px;
-    border-radius: 4px;
-    text-align: center;
-    margin: 0 auto;
-    width: 80%;
-  }
-
-  a {
+const SubTitle = styled.h2`
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  font-weight: 300;
+  font-size: 3rem;
+  border-radius: 2px;
+  span {
     color: var(--light-green);
   }
 
@@ -22,9 +18,10 @@ const MainContainer = styled.main`
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    #work {
-      margin: 32px auto;
-    }
+    font-size: 1.5rem;
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 350px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -44,4 +41,4 @@ const MainContainer = styled.main`
   }
 `
 
-export default MainContainer
+export default SubTitle

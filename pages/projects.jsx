@@ -2,10 +2,14 @@ import PageTitle from '../components/PageTitle'
 import { motion } from 'framer-motion'
 import ProjectTitle from '../components/ProjectTitle'
 import Image from 'next/image'
+import { uuid } from 'uuidv4'
+import InfoContainer from '../components/InfoContainer'
 
+import ProjectsContainer from '../components/ProjectsContainer'
 const Work = () => {
   return (
     <motion.div
+      key={uuid}
       initial="hidden"
       animate="visible"
       variants={{
@@ -25,8 +29,9 @@ const Work = () => {
       <PageTitle>
         <span>-</span> Projects <span>-</span>
       </PageTitle>
-      <div className="container projects">
+      <ProjectsContainer>
         <motion.article
+          key={uuid}
           initial="hidden"
           animate="visible"
           variants={{
@@ -44,13 +49,13 @@ const Work = () => {
           }}
           className="project"
         >
-          <ProjectTitle className="title">BØRRES BURGERSHOP</ProjectTitle>
+          <ProjectTitle>BØRRES BURGERSHOP</ProjectTitle>
           <p className="desc">
             An automated ordering system for a fictive burgershop. Create a user before making an
             order.
           </p>
           <img className="project-image" src="/img/BB2.PNG" />
-          <div className="info-container">
+          <InfoContainer>
             <ul>
               <li>React</li>
               <li>Firebase/Firestore</li>
@@ -62,9 +67,10 @@ const Work = () => {
                 <Image width="40px" height="40px" src="/img/github2.png" />
               </a>
             </div>
-          </div>
+          </InfoContainer>
         </motion.article>
         <motion.article
+          key={uuid}
           initial="hidden"
           animate="visible"
           variants={{
@@ -82,12 +88,12 @@ const Work = () => {
           }}
           className="project"
         >
-          <ProjectTitle className="title">COLOR GAME</ProjectTitle>
+          <ProjectTitle>COLOR GAME</ProjectTitle>
           <p className="desc">
             A game where you have to guess the correct RGB-color. Has easy and hard mode.
           </p>
           <img className="project-image" src="/img/CG.PNG" />
-          <div className="info-container">
+          <InfoContainer>
             <ul>
               <li>JavaScript</li>
               <li>CSS</li>
@@ -98,9 +104,10 @@ const Work = () => {
                 <Image width="40px" height="40px" src="/img/github2.png" />
               </a>
             </div>
-          </div>
+          </InfoContainer>
         </motion.article>
         <motion.article
+          key={uuid}
           initial="hidden"
           animate="visible"
           variants={{
@@ -118,10 +125,10 @@ const Work = () => {
           }}
           className="project"
         >
-          <ProjectTitle className="title">TO-DO LIST</ProjectTitle>
+          <ProjectTitle>TO-DO LIST</ProjectTitle>
           <p className="desc">A simple to-do list application. Written in React. </p>
           <img className="project-image" src="/img/TL.PNG" />
-          <div className="info-container">
+          <InfoContainer>
             <ul>
               <li>React</li>
               <li>SASS</li>
@@ -131,9 +138,10 @@ const Work = () => {
                 <Image width="40px" height="40px" src="/img/github2.png" />
               </a>
             </div>
-          </div>
+          </InfoContainer>
         </motion.article>
         <motion.article
+          key={uuid}
           initial="hidden"
           animate="visible"
           variants={{
@@ -151,12 +159,12 @@ const Work = () => {
           }}
           className="project"
         >
-          <ProjectTitle className="title">INTERACTIVE MAP</ProjectTitle>
+          <ProjectTitle>INTERACTIVE MAP</ProjectTitle>
           <p className="desc">
             An interactive map over my favorite places to visit. Made using the MapBox API.
           </p>
           <img className="project-image" src="/img/MB2.PNG" />
-          <div className="info-container">
+          <InfoContainer>
             <ul>
               <li>React</li>
               <li>MapBox GL</li>
@@ -168,9 +176,9 @@ const Work = () => {
                 <Image width="40px" height="40px" src="/img/github2.png" />
               </a>
             </div>
-          </div>
+          </InfoContainer>
         </motion.article>
-      </div>
+      </ProjectsContainer>
     </motion.div>
   )
 }

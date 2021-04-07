@@ -1,8 +1,14 @@
 import PageTitle from '../components/PageTitle'
 import { motion } from 'framer-motion'
+import { uuid } from 'uuidv4'
+import AboutContainer from '../components/AboutContainer'
+import SkillContainer from '../components/SkillContainer'
+import SubTitle from '../components/SubTitle'
 export default function Home() {
   return (
     <motion.div
+      key={uuid}
+      className="parent"
       initial="hidden"
       animate="visible"
       variants={{
@@ -26,47 +32,25 @@ export default function Home() {
         </span>{' '}
         <span>-</span>
       </PageTitle>
-      <motion.h2
-        initial="hidden"
-        animate="visible"
-        variants={{
-          visible: {
-            opacity: 1,
-            scale: 1,
-          },
-          hidden: {
-            opacity: 0,
-            scale: 0.8,
-          },
-        }}
-      >
+      <SubTitle>
         Front<span>-</span>end developer
-      </motion.h2>
+      </SubTitle>
 
       {/* ABOUT SECTION */}
 
-      <motion.div
-        className="container about"
-        initial="hidden"
-        animate="visible"
-        variants={{
-          visible: {
-            opacity: 1,
-          },
-          hidden: {
-            opacity: 0,
-          },
-        }}
-      >
-        <div>
+      <AboutContainer>
+        <div id="intro-container">
           <p>
             Hi! Im Gabriel Cavallaro, a 24 year old Norwegian-Italian guy living in Oslo, Norway.
           </p>
           <p>I am currently studying Frontend-Development at Fagskolen Kristiania.</p>
-          <p>In my free time I enjoy walks in nature, gaming and good food!</p>
+          <p>
+            In my free time I enjoy walks in nature, gaming, good food and last but not least,
+            coding!
+          </p>
           <p> I speak Norwegian, Italian and English fluently. I also speak a fair bit Spanish.</p>
-          <div className="skill-container">
-            <p>Web-Languages and other skills;</p>
+          <SkillContainer>
+            <p className="skill-title">Web-Languages and other skills;</p>
             <ul>
               <li>HTML5</li>
               <li>CSS3</li>
@@ -76,32 +60,41 @@ export default function Home() {
               <li>NextJs</li>
               <li>CosmicJs</li>
               <li>Google Firebase</li>
-              <li>Styled Components</li>
-              <li>Framer Motion</li>
               <li>Plotly</li>
-            </ul>
+              <li>Framer Motion</li>
 
-            <p>Other software skills;</p>
+              <li>Styled Components</li>
+            </ul>
+          </SkillContainer>
+          <SkillContainer>
+            <p className="skill-title">Other software skills;</p>
             <ul>
               <li>Cinema 4D</li>
-              <li>Adobe Photoshop</li>
-              <li>Adobe After Effects</li>
               <li>ZBrush</li>
               <li>Maya</li>
               <li>Blender</li>
+              <li>Adobe Photoshop</li>
+              <li>Adobe After Effects</li>
               <li>Marmoset Toolbag</li>
               <li>Substance Painter</li>
             </ul>
-          </div>
+          </SkillContainer>
           <p id="work">
             Im open for work! Feel free to{' '}
-            <a id="contact" href="mailto: gabrieljencav@live.no">
+            <a className="contact" href="mailto: gabrieljencav@live.no">
               contact
             </a>{' '}
-            me if you're interested.
+            me if you're interested. You can also find me on{' '}
+            <a
+              className="contact"
+              href="https://www.linkedin.com/in/gabriel-jensen-cavallaro-690102116/"
+            >
+              linkedIn
+            </a>
+            .
           </p>
         </div>
-      </motion.div>
+      </AboutContainer>
     </motion.div>
   )
 }
