@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const MainContainer = styled.main`
-  width: 100vw;
+  width: 100%;
   height: 100%;
   margin-top: 5%;
 
@@ -25,22 +25,6 @@ const MainContainer = styled.main`
     #work {
       margin: 32px auto;
     }
-  }
-
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-  }
-
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-  }
-
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-  }
-
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
   }
 `
 

@@ -2,8 +2,7 @@ import styled from 'styled-components'
 
 const SubTitle = styled.h2`
   margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 6vh;
   text-align: center;
   width: 30%;
   padding: 10px;
@@ -20,8 +19,7 @@ const SubTitle = styled.h2`
   @media only screen and (max-width: 600px) {
     font-size: 1.5rem;
     width: 80%;
-    margin-top: 40px;
-    margin-bottom: 350px;
+    margin-top: 5vh;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */

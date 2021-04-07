@@ -40,15 +40,21 @@ export default function Home() {
 
       <AboutContainer>
         <div id="intro-container">
-          <p>
-            Hi! Im Gabriel Cavallaro, a 24 year old Norwegian-Italian guy living in Oslo, Norway.
-          </p>
-          <p>I am currently studying Frontend-Development at Fagskolen Kristiania.</p>
-          <p>
-            In my free time I enjoy walks in nature, gaming, good food and last but not least,
-            coding!
-          </p>
-          <p> I speak Norwegian, Italian and English fluently. I also speak a fair bit Spanish.</p>
+          <div id="info-me-container">
+            <p>
+              Hi! Im Gabriel Cavallaro, a 24 year old Norwegian-Italian guy living in Oslo, Norway.
+            </p>
+            <p>I am currently studying Frontend-Development at Fagskolen Kristiania.</p>
+            <p>
+              In my free time I enjoy walks in nature, gaming, good food and last but not least,
+              coding!
+            </p>
+            <p>
+              {' '}
+              I speak Norwegian, Italian and English fluently. I also speak a fair bit Spanish.
+            </p>
+          </div>
+
           <SkillContainer>
             <p className="skill-title">Web-Languages and other skills;</p>
             <ul>
