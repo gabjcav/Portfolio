@@ -2,14 +2,15 @@ import PageTitle from '../components/PageTitle'
 import { motion } from 'framer-motion'
 import ProjectTitle from '../components/ProjectTitle'
 import Image from 'next/image'
-import { uuid } from 'uuidv4'
+import { uuid } from 'react-uuid'
 import InfoContainer from '../components/InfoContainer'
 
 import ProjectsContainer from '../components/ProjectsContainer'
+
 const Work = () => {
   return (
     <motion.div
-      key={uuid}
+      key={Math.random() * 1000}
       initial="hidden"
       animate="visible"
       variants={{
@@ -31,7 +32,7 @@ const Work = () => {
       </PageTitle>
       <ProjectsContainer>
         <motion.article
-          key={uuid}
+          key={Math.random() * 1000}
           initial="hidden"
           animate="visible"
           variants={{
@@ -63,14 +64,14 @@ const Work = () => {
               <li>Styled Components</li>
             </ul>
             <div className="link-container">
-              <a href="https://github.com/gabjcav/tema-6">
+              <a href="https://github.com/gabjcav/Borres-burgere">
                 <Image width="40px" height="40px" src="/img/github2.png" />
               </a>
             </div>
           </InfoContainer>
         </motion.article>
         <motion.article
-          key={uuid}
+          key={Math.random() * 1000}
           initial="hidden"
           animate="visible"
           variants={{
@@ -89,9 +90,7 @@ const Work = () => {
           className="project"
         >
           <ProjectTitle>COLOR GAME</ProjectTitle>
-          <p className="desc">
-            A game where you have to guess the correct RGB-color. Has easy and hard mode.
-          </p>
+          <p className="desc">Guess the correct RGB-color. Switch between easy and hard mode.</p>
           <img className="project-image" src="/img/CG.PNG" />
           <InfoContainer>
             <ul>
@@ -100,14 +99,14 @@ const Work = () => {
               <li>HTML5</li>
             </ul>
             <div className="link-container">
-              <a href="https://github.com/gabjcav/tema-6">
+              <a href="https://github.com/gabjcav/Color-game">
                 <Image width="40px" height="40px" src="/img/github2.png" />
               </a>
             </div>
           </InfoContainer>
         </motion.article>
         <motion.article
-          key={uuid}
+          key={Math.random() * 1000}
           initial="hidden"
           animate="visible"
           variants={{
@@ -126,7 +125,7 @@ const Work = () => {
           className="project"
         >
           <ProjectTitle>TO-DO LIST</ProjectTitle>
-          <p className="desc">A simple to-do list application. Written in React. </p>
+          <p className="desc">A simple to-do list application. </p>
           <img className="project-image" src="/img/TL.PNG" />
           <InfoContainer>
             <ul>
@@ -134,14 +133,14 @@ const Work = () => {
               <li>SASS</li>
             </ul>
             <div className="link-container">
-              <a href="https://github.com/gabjcav/tema-6">
+              <a href="https://github.com/gabjcav/To-do-list">
                 <Image width="40px" height="40px" src="/img/github2.png" />
               </a>
             </div>
           </InfoContainer>
         </motion.article>
         <motion.article
-          key={uuid}
+          key={Math.random() * 1000}
           initial="hidden"
           animate="visible"
           variants={{
@@ -172,7 +171,7 @@ const Work = () => {
               <li>Styled Components</li>
             </ul>
             <div className="link-container">
-              <a href="https://github.com/gabjcav/tema-6">
+              <a href="https://github.com/gabjcav/Map">
                 <Image width="40px" height="40px" src="/img/github2.png" />
               </a>
             </div>
