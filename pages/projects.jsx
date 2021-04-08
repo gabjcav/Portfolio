@@ -2,9 +2,7 @@ import PageTitle from '../components/PageTitle'
 import { motion } from 'framer-motion'
 import ProjectTitle from '../components/ProjectTitle'
 import Image from 'next/image'
-import { uuid } from 'react-uuid'
 import InfoContainer from '../components/InfoContainer'
-
 import ProjectsContainer from '../components/ProjectsContainer'
 
 const Work = () => {

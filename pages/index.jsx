@@ -1,13 +1,14 @@
 import PageTitle from '../components/PageTitle'
 import { motion } from 'framer-motion'
-import { uuid } from 'uuidv4'
 import AboutContainer from '../components/AboutContainer'
 import SkillContainer from '../components/SkillContainer'
 import SubTitle from '../components/SubTitle'
 import Line from '../components/Line'
+
 export default function Home() {
   return (
     <motion.div
+      key={Math.random() * 1000}
       initial="hidden"
       animate="visible"
       variants={{

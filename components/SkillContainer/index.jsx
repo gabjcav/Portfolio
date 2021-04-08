@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const SkillContainer = styled.div`
   margin-top: 2%;
   margin-bottom: 5%;
-  max-width: 100%;
+  width: 110%;
   font-size: 2rem;
   padding: 10px;
   border-radius: 5px;
@@ -13,6 +13,7 @@ const SkillContainer = styled.div`
     text-align: center;
   }
   ul {
+    margin-left: 10%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-evenly;
@@ -35,6 +36,7 @@ const SkillContainer = styled.div`
       grid-template-columns: minmax(70px, auto) 1fr;
       justify-content: space-around;
       gap: 30px;
+      margin-left: 0;
       font-size: 1rem;
     }
   }
