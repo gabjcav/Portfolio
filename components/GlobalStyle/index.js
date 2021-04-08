@@ -16,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
 
     --light-green: #86c232;
     --dark-green: #61892f;
+
     --gray: #474b4f;
     --semi-dark-gray: #363c41;
     --dark-gray: #222629;
@@ -28,9 +29,8 @@ const GlobalStyle = createGlobalStyle`
 
 
     body {
-        padding: 0;
         margin: 0;
-        font-family: 'Roboto Condensed';
+        font-family: 'Roboto Condensed', sans-serif;
         height: 100%; 
         background-color: var(--dark-gray); 
         color: white; 

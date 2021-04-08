@@ -7,20 +7,28 @@ const AboutContainer = styled.div`
     margin: 0 auto;
     margin-top: 8.5%;
     display: flex;
-    flex-direction: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5%;
     padding: 1.7%;
+
     #info-me-container{
       text-align: center; 
-      margin-top: 10vh; 
+      /* margin-top: 9vh;  */
     }
     p{
       font-size: 1.15rem; 
     }
-    #work{
-      margin-bottom: 50px; 
+    #work {
+      margin-bottom: 50px;
+      border: 1px dashed var(--light-green);
+      padding: 15px;
+      border-radius: 4px;
+      text-align: center;
+      margin: 0 auto;
+      width: 80%;
+   
       #contact {
         color: var(--light-green); 
       }
@@ -30,9 +38,12 @@ const AboutContainer = styled.div`
 
 
     @media (max-width: 600px) {
+      margin-top: 68%; 
       #info-me-container {
         text-align: left; 
-        margin-top: 70vh; 
+        margin: 0 auto; 
+        /* margin-top: 67vh;  */
+        width: 95%; 
       }
     }
 `

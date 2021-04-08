@@ -11,9 +11,6 @@ const PageTitle = styled.h1`
   span {
     color: var(--light-green);
   }
-  #lastname {
-    color: whitesmoke;
-  }
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {

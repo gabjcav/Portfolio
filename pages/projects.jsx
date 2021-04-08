@@ -27,9 +27,7 @@ const Work = () => {
         },
       }}
     >
-      <PageTitle>
-        <span>-</span> Projects <span>-</span>
-      </PageTitle>
+      <PageTitle>Projects</PageTitle>
       <ProjectsContainer>
         <motion.article
           key={Math.random() * 1000}

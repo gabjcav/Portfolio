@@ -1,15 +1,15 @@
 import styled from 'styled-components'
 
 const SkillContainer = styled.div`
-  margin: 10% 0;
+  margin: 8% 0;
   max-width: 100%;
   font-size: 2rem;
-  background-color: var(--gray);
   padding: 10px;
   border-radius: 5px;
   .skill-title {
     font-size: 1.5rem;
     margin-bottom: 15px;
+    text-align: center;
   }
   ul {
     display: grid;

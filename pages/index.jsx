@@ -4,6 +4,7 @@ import { uuid } from 'uuidv4'
 import AboutContainer from '../components/AboutContainer'
 import SkillContainer from '../components/SkillContainer'
 import SubTitle from '../components/SubTitle'
+import Line from '../components/Line'
 export default function Home() {
   return (
     <motion.div
@@ -26,11 +27,10 @@ export default function Home() {
       }}
     >
       <PageTitle>
-        <span>-</span> Gabriel{' '}
+        Gabriel{' '}
         <span id="lastname">
           <span>C</span>avallaro
         </span>{' '}
-        <span>-</span>
       </PageTitle>
       <SubTitle>
         Front<span>-</span>end developer
@@ -56,7 +56,8 @@ export default function Home() {
           </div>
 
           <SkillContainer>
-            <p className="skill-title">Web-Languages and other skills;</p>
+            <p className="skill-title">Web-Languages and other skills</p>
+            <Line />
             <ul>
               <li>HTML5</li>
               <li>CSS3</li>
@@ -73,7 +74,8 @@ export default function Home() {
             </ul>
           </SkillContainer>
           <SkillContainer>
-            <p className="skill-title">Other software skills;</p>
+            <p className="skill-title">Other software skills</p>
+            <Line />
             <ul>
               <li>Cinema 4D</li>
               <li>ZBrush</li>

@@ -33,9 +33,6 @@ const ProjectsContainer = styled.div`
         border-radius: 5px;
       }
 
-      .info-container {
-        
-      }
     }   
 
 
@@ -45,37 +42,17 @@ const ProjectsContainer = styled.div`
   @media only screen and (max-width: 600px) {
     width: 100%;
     height: 200px;
-    margin: 0 auto;
-    margin-top: 5%;
+    margin: 15% auto;
     display: grid;
     grid-template-rows: repeat(4, 1fr); 
-    gap: 25px;
-    margin-bottom: 10%; 
+    gap: 14%;
     .project{
       margin: 0 auto; 
       height: 500px;
       width: 90%;
-
     }
-    
-
   }
 
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-  }
-
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-  }
-
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-  }
-
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-  }
 `
 
 export default ProjectsContainer;
