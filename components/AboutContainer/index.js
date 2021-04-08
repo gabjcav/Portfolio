@@ -1,16 +1,13 @@
 import styled from 'styled-components';
 
 const AboutContainer = styled.div`
-    position: relative; 
-    width: 100%;
-    height: 600px;
+    width: 30%;
+    height: 50%;
     margin: 0 auto;
-    margin-top: 8.5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5%;
     padding: 1.7%;
 
     #info-me-container{
@@ -38,7 +35,8 @@ const AboutContainer = styled.div`
 
 
     @media (max-width: 600px) {
-      margin-top: 68%; 
+      margin-top: 0; 
+      width: 90%; 
       #info-me-container {
         text-align: left; 
         margin: 0 auto; 

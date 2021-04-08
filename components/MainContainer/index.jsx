@@ -1,6 +1,7 @@
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
-const MainContainer = styled.main`
+const MainContainer = styled(motion.main)`
   width: 100%;
   height: 100%;
   margin-top: 5%;

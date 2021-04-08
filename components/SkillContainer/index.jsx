@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 const SkillContainer = styled.div`
-  margin: 8% 0;
+  margin-top: 2%;
+  margin-bottom: 5%;
   max-width: 100%;
   font-size: 2rem;
   padding: 10px;
