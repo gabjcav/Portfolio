@@ -61,7 +61,10 @@ const Work = () => {
             </ul>
             <div className="link-container">
               <a href="https://github.com/gabjcav/Borres-burgere">
-                <Image width="40px" height="40px" src="/img/github2.png" />
+                <Image className="github" width="40px" height="40px" src="/img/github2.png" />
+              </a>
+              <a className="live" href="https://borres-burgershop.netlify.app/">
+                Live version
               </a>
             </div>
           </InfoContainer>
@@ -96,7 +99,10 @@ const Work = () => {
             </ul>
             <div className="link-container">
               <a href="https://github.com/gabjcav/Color-game">
-                <Image width="40px" height="40px" src="/img/github2.png" />
+                <Image className="github" width="40px" height="40px" src="/img/github2.png" />
+              </a>
+              <a className="live" href="https://gabjcav.github.io/Color-game/">
+                Live version
               </a>
             </div>
           </InfoContainer>
@@ -130,7 +136,10 @@ const Work = () => {
             </ul>
             <div className="link-container">
               <a href="https://github.com/gabjcav/To-do-list">
-                <Image width="40px" height="40px" src="/img/github2.png" />
+                <Image className="github" width="40px" height="40px" src="/img/github2.png" />
+              </a>
+              <a className="live" href="https://to-do-list-g.netlify.app/">
+                Live version
               </a>
             </div>
           </InfoContainer>
@@ -168,7 +177,10 @@ const Work = () => {
             </ul>
             <div className="link-container">
               <a href="https://github.com/gabjcav/Map">
-                <Image width="40px" height="40px" src="/img/github2.png" />
+                <Image className="github" width="40px" height="40px" src="/img/github2.png" />
+              </a>
+              <a className="live" href="/projects">
+                Coming soon
               </a>
             </div>
           </InfoContainer>

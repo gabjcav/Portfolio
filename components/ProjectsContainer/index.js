@@ -21,6 +21,16 @@ const ProjectsContainer = styled.div`
       box-shadow: 6px 5px 5px -4px rgba(0, 0, 0, 0.59);
       display: grid;
       grid-template-rows: repeat(5, 1fr);
+      .github {
+        width: 50px;
+          height: 50px;
+        transition: .3s ease;
+        &:hover {
+          transform: scale(1.05);
+          
+
+        }
+      }
       .desc {
         text-align: center;
         height: 50px;

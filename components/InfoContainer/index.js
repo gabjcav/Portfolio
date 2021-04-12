@@ -20,7 +20,20 @@ const InfoContainer = styled.div`
           justify-content: space-around;
           align-items: center;
           height: 60px;
+          .live{
+            padding: 2%;
+            color: var(--dark-gray);
+            background-color: var(--light-green); 
+            box-shadow: 3px 3px 3px -3px rgba(0, 0, 0, 0.59);
+            border-radius: 5%; 
+            font-weight: bold; 
+            transition: .3s ease; 
+            &:hover{
+              background-color: white; 
+            }
+          }
         }
+        
 `
 
 export default InfoContainer;

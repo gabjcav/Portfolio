@@ -51,7 +51,7 @@ export default function Home() {
         </div>
 
         <SkillContainer>
-          <p className="skill-title">Web-Languages and other skills</p>
+          <p className="skill-title">Web-Dev skills</p>
           <Line />
           <ul>
             <li>HTML5</li>
