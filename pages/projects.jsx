@@ -128,7 +128,11 @@ const Work = () => {
         >
           <ProjectTitle>TO-DO LIST</ProjectTitle>
           <p className="desc">A simple to-do list application. </p>
-          <img className="project-image" src="/img/TL.PNG" />
+          <img
+            className="project-image"
+            src="/img/TL.PNG"
+            alt="Screenshot from To-do list project."
+          />
           <InfoContainer>
             <ul>
               <li>React</li>
@@ -167,7 +171,7 @@ const Work = () => {
           <p className="desc">
             An interactive map over my favorite places to visit. Made using the MapBox API.
           </p>
-          <img className="project-image" src="/img/MB2.PNG" />
+          <img className="project-image" src="/img/MB2.PNG" alt="Screenshot from Mapbox project." />
           <InfoContainer>
             <ul>
               <li>React</li>
