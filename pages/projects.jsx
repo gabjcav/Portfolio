@@ -137,6 +137,7 @@ const Work = () => {
             <ul>
               <li>React</li>
               <li>SASS</li>
+              <li>Local storage</li>
             </ul>
             <div className="link-container">
               <a href="https://github.com/gabjcav/To-do-list">
