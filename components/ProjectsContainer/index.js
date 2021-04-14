@@ -74,6 +74,9 @@ const ProjectsContainer = styled.div`
     }
   }
 
+  @media only screen and (min-width: 2000px) {
+    display: flex;
+  }
    /* Large devices (laptops/desktops, 992px and up) */
 
 
