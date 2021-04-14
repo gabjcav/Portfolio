@@ -50,7 +50,7 @@ const SkillContainer = styled.div`
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
+  @media only screen and (max-width: 1200px) {
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
