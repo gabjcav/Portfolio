@@ -48,6 +48,17 @@ const ProjectsContainer = styled.div`
 
     //   MEDIA QUERIES   //
 
+    @media only screen and (min-width: 600px) {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr); 
+      justify-content: space-evenly;
+     .project{
+      margin: 0 auto; 
+      height: 500px;
+      width: 90%;
+    }
+  }
+
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     width: 100%;
@@ -62,6 +73,9 @@ const ProjectsContainer = styled.div`
       width: 90%;
     }
   }
+
+   /* Large devices (laptops/desktops, 992px and up) */
+
 
 `
 

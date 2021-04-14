@@ -21,6 +21,14 @@ const SubTitle = styled.h2`
     width: 80%;
   }
 
+  @media only screen and (min-width: 601px) {
+    font-size: 2rem;
+  }
+
+  @media only screen and (min-width: 2300px) {
+    font-size: 3em;
+  }
+
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
   }
