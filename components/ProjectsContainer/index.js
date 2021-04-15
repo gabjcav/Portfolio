@@ -21,6 +21,7 @@ const ProjectsContainer = styled.div`
       box-shadow: 6px 5px 5px -4px rgba(0, 0, 0, 0.59);
       display: grid;
       grid-template-rows: repeat(5, 1fr);
+      padding: 1%; 
       .github {
         width: 50px;
           height: 50px;
@@ -36,7 +37,7 @@ const ProjectsContainer = styled.div`
         height: 50px;
       }
       .project-image {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         height: 70px;
         box-shadow: 6px 5px 5px -4px rgba(0, 0, 0, 0.4);
@@ -48,16 +49,6 @@ const ProjectsContainer = styled.div`
 
     //   MEDIA QUERIES   //
 
-    @media only screen and (min-width: 600px) {
-     display: grid;
-     grid-template-columns: repeat(3, 1fr); 
-      justify-content: space-evenly;
-     .project{
-      margin: 0 auto; 
-      height: 500px;
-      width: 90%;
-    }
-  }
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
@@ -74,10 +65,22 @@ const ProjectsContainer = styled.div`
     }
   }
 
+  
+  @media only screen and (min-width: 600px) {
+     display: grid;
+     grid-template-rows: repeat(1, 1fr); 
+      justify-content: space-evenly;
+     .project{
+      margin: 0 auto; 
+      height: 500px;
+      width: 55%;
+    }
+  }
+
   @media only screen and (min-width: 2000px) {
     display: flex;
   }
-   /* Large devices (laptops/desktops, 992px and up) */
+
 
 
 `
