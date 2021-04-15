@@ -21,7 +21,7 @@ export default function Home() {
         },
         hidden: {
           opacity: 0,
-          scale: 0.8,
+          scale: 1,
         },
       }}
     >

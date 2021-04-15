@@ -34,22 +34,24 @@ const AboutContainer = styled.div`
     
 
 
-    @media (max-width: 600px) {
-      margin-top: 0; 
-      width: 90%; 
-      #info-me-container {
-        text-align: left; 
-        margin: 0 auto; 
-        /* margin-top: 67vh;  */
-        width: 95%; 
-      }
-    }
+
 
     @media (max-width: 1440px) {
       margin-top: 0; 
       width: 70%; 
       #info-me-container {
         text-align: center; 
+        margin: 0 auto; 
+        /* margin-top: 67vh;  */
+        width: 95%; 
+      }
+    }
+
+    @media (max-width: 600px) {
+      margin-top: 0; 
+      width: 90%; 
+      #info-me-container {
+        text-align: left; 
         margin: 0 auto; 
         /* margin-top: 67vh;  */
         width: 95%; 
