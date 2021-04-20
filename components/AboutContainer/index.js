@@ -9,7 +9,8 @@ const AboutContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 1.7%;
-
+    z-index: 1000; 
+    position: relative;
     #info-me-container{
       text-align: center; 
       /* margin-top: 9vh;  */
@@ -34,11 +35,9 @@ const AboutContainer = styled.div`
     
 
 
-
-
     @media (max-width: 1440px) {
       margin-top: 0; 
-      width: 70%; 
+      width: 60%; 
       #info-me-container {
         text-align: center; 
         margin: 0 auto; 

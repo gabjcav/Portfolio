@@ -41,6 +41,10 @@ const SkillContainer = styled.div`
     }
   }
 
+  @media (max-width: 1440px) {
+    margin-top: 0;
+    width: 90%;
+  }
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
   }

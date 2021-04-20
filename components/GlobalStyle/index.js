@@ -40,6 +40,10 @@ const GlobalStyle = createGlobalStyle`
     @media (max-width: 600px) {
 
     }
+
+    .count-particles{
+        display: none
+    }
 `
 
 export default GlobalStyle;

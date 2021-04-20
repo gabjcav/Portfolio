@@ -78,51 +78,6 @@ const Work = () => {
     <div>
       <PageTitle>Projects</PageTitle>
       <ProjectsContainer>
-        {/* {projects &&
-          projects?.map((project) => {
-            const p = project.data()
-            const usedSkills = p.UsedSkills
-            return (
-              <motion.article
-                key={Math.random() * 1000}
-                initial="hidden"
-                animate="visible"
-                variants={{
-                  visible: {
-                    opacity: 1,
-                    scale: 1,
-                    transition: {
-                      delay: 0,
-                    },
-                  },
-                  hidden: {
-                    opacity: 0,
-                    scale: 0.8,
-                  },
-                }}
-                className="project"
-              >
-                <ProjectTitle>{p.Title}</ProjectTitle>
-                <p className="desc">{p.Description}</p>
-                <img className="project-image" src={p.Image} />
-                <InfoContainer>
-                  <ul>
-                    {usedSkills.map((skill) => {
-                      return <li>{skill}</li>
-                    })}
-                  </ul>
-                  <div className="link-container">
-                    <a href={p.GitHubLink}>
-                      <Image className="github" width="40px" height="40px" src="/img/github2.png" />
-                    </a>
-                    <a className="live" href={p.LiveLink}>
-                      {p.ButtonText}
-                    </a>
-                  </div>
-                </InfoContainer>
-              </motion.article>
-            )
-          })} */}
         {projects.length === 0 ? renderSkeleton() : renderProjects()}
       </ProjectsContainer>
     </div>

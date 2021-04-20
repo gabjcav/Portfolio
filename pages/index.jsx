@@ -4,6 +4,8 @@ import AboutContainer from '../components/AboutContainer'
 import SkillContainer from '../components/SkillContainer'
 import SubTitle from '../components/SubTitle'
 import Line from '../components/Line'
+import Particles from 'react-particles-js'
+import ParticlesConfig from '../config/particlesCfg'
 
 export default function Home() {
   return (
@@ -25,6 +27,12 @@ export default function Home() {
         },
       }}
     >
+      <Particles
+        options={{ fullScreen: { enable: true, zIndex: -99999 } }}
+        params={ParticlesConfig}
+        height="100vh"
+        width="100vw"
+      />
       <PageTitle>
         Gabriel{' '}
         <span id="lastname">
@@ -64,7 +72,6 @@ export default function Home() {
             <li>Google Firebase</li>
             <li>Plotly</li>
             <li>Framer Motion</li>
-
             <li>Styled Components</li>
           </ul>
         </SkillContainer>
