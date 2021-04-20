@@ -27,12 +27,12 @@ export default function Home() {
         },
       }}
     >
-      <Particles
+      {/* <Particles
         options={{ fullScreen: { enable: true, zIndex: -99999 } }}
         params={ParticlesConfig}
         height="100vh"
         width="100vw"
-      />
+      /> */}
       <PageTitle>
         Gabriel{' '}
         <span id="lastname">
