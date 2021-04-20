@@ -44,6 +44,9 @@ const GlobalStyle = createGlobalStyle`
     .count-particles{
         display: none
     }
+    #tsparticles{
+        width: 50%; 
+    }
 `
 
 export default GlobalStyle;

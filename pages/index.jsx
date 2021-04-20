@@ -6,6 +6,7 @@ import SubTitle from '../components/SubTitle'
 import Line from '../components/Line'
 import Particles from 'react-particles-js'
 import ParticlesConfig from '../config/particlesCfg'
+import PageContainer from '../components/PageContainer'
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
         },
         hidden: {
           opacity: 0,
-          scale: 1,
+          scale: 0.85,
         },
       }}
     >
@@ -33,6 +34,7 @@ export default function Home() {
         height="100vh"
         width="100vw"
       /> */}
+
       <PageTitle>
         Gabriel{' '}
         <span id="lastname">

@@ -62,6 +62,13 @@ const ProjectsContainer = styled.div`
       margin: 0 auto; 
       height: 500px;
       width: 90%;
+      .project-image {
+        width: 90%;
+        margin: 0 auto;
+        height:70%;
+        box-shadow: 6px 5px 5px -4px rgba(0, 0, 0, 0.4);
+        border-radius: 5px;
+      }
     }
   }
 
@@ -77,8 +84,32 @@ const ProjectsContainer = styled.div`
     }
   }
 
+  @media only screen and (min-width: 1439px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .project{
+      width: 100%; 
+      .project-image {
+        width: 85%;
+        margin: 0 auto;
+        height:80%;
+        box-shadow: 6px 5px 5px -4px rgba(0, 0, 0, 0.4);
+        border-radius: 5px;
+      }
+    }
+  }
   @media only screen and (min-width: 2000px) {
     display: flex;
+    .project{
+      .project-image {
+        width: 100%;
+        margin: 0 auto;
+        height: 70px;
+        box-shadow: 6px 5px 5px -4px rgba(0, 0, 0, 0.4);
+        border-radius: 5px;
+      }
+    }
+    
   }
 
 
