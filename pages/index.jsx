@@ -27,13 +27,7 @@ export default function Home() {
         },
       }}
     >
-      <Particles
-        options={{ fullScreen: { enable: true, zIndex: -99999 } }}
-        params={ParticlesConfig}
-        height="80vh"
-        width="99vw"
-        style={({ margin: 0 }, { position: 'absolute' })}
-      />
+      <Particles params={ParticlesConfig} height="100vh" width="100vw" />
 
       <PageTitle style={{ zIndex: 9999 }}>
         Gabriel{' '}
