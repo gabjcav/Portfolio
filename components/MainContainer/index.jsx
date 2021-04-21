@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 const MainContainer = styled(motion.main)`
   width: 100%;
   height: 100%;
-  margin-top: 5%;
+  margin-top: 0;
   a {
     color: var(--light-green);
   }

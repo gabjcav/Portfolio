@@ -7,6 +7,8 @@ import ProjectsContainer from '../components/ProjectsContainer'
 import queryFirebase from '../config/firebase'
 import { useEffect, useState } from 'react'
 import Skeleton from '../components/SkeletonContainer'
+import Particles from 'react-particles-js'
+import ParticlesConfig from '../config/particlesCfg'
 
 const Work = () => {
   const [projects, setProjects] = useState([])
@@ -76,6 +78,13 @@ const Work = () => {
 
   return (
     <div>
+      <Particles
+        options={{ fullScreen: { enable: true, zIndex: -99999 } }}
+        params={ParticlesConfig}
+        height="80vh"
+        width="99vw"
+        style={({ margin: 0 }, { position: 'absolute' })}
+      />
       <PageTitle>Projects</PageTitle>
       <ProjectsContainer>
         {projects.length === 0 ? renderSkeleton() : renderProjects()}

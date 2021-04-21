@@ -8,6 +8,7 @@ const PageTitle = styled.h1`
   max-width: 37%;
   padding: 10px;
   color: whitesmoke;
+  z-index: 1000;
   span {
     color: var(--light-green);
   }

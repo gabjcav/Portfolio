@@ -6,7 +6,6 @@ import SubTitle from '../components/SubTitle'
 import Line from '../components/Line'
 import Particles from 'react-particles-js'
 import ParticlesConfig from '../config/particlesCfg'
-import PageContainer from '../components/PageContainer'
 
 export default function Home() {
   return (
@@ -28,14 +27,15 @@ export default function Home() {
         },
       }}
     >
-      {/* <Particles
+      <Particles
         options={{ fullScreen: { enable: true, zIndex: -99999 } }}
         params={ParticlesConfig}
-        height="100vh"
-        width="100vw"
-      /> */}
+        height="80vh"
+        width="99vw"
+        style={({ margin: 0 }, { position: 'absolute' })}
+      />
 
-      <PageTitle>
+      <PageTitle style={{ zIndex: 9999 }}>
         Gabriel{' '}
         <span id="lastname">
           <span>C</span>avallaro
@@ -85,8 +85,8 @@ export default function Home() {
             <li>ZBrush</li>
             <li>Maya</li>
             <li>Blender</li>
-            <li>Adobe Photoshop</li>
-            <li>Adobe After Effects</li>
+            <li>Adobe PS</li>
+            <li>Adobe AE</li>
             <li>Marmoset Toolbag</li>
             <li>Substance Painter</li>
           </ul>

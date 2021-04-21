@@ -6,6 +6,7 @@ const NavStyle = styled.nav`
   align-items: center;
   height: 60px;
   font-family: 'Lato', sans-serif;
+  z-index: 1000;
   ul {
     margin-top: 10%;
     margin-left: 3%;

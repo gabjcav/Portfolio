@@ -10,10 +10,12 @@ const AboutContainer = styled.div`
     align-items: center;
     padding: 1.7%;
     z-index: 1000; 
-    position: relative;
+    
+    
     #info-me-container{
       text-align: center; 
       /* margin-top: 9vh;  */
+      z-index: 1000; 
     }
     p{
       font-size: 1.15rem; 

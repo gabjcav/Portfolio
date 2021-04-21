@@ -7,6 +7,7 @@ const SkillContainer = styled.div`
   font-size: 2rem;
   padding: 10px;
   border-radius: 5px;
+  z-index: 100;
   .skill-title {
     font-size: 1.5rem;
     margin-bottom: 15px;

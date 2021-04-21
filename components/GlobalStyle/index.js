@@ -46,6 +46,10 @@ const GlobalStyle = createGlobalStyle`
     }
     #tsparticles{
         width: 50%; 
+        margin-top:5%; 
+    }
+    .tsparticles-canvas-el{
+        z-index: -999;
     }
 `
 

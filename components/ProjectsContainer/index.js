@@ -12,6 +12,9 @@ const ProjectsContainer = styled.div`
     gap: 5%;
     padding: 1.7%;
     margin-bottom: 0; 
+    z-index: 1000; 
+    position: relative; 
+
     .project {
       margin-left: 0;
       height: 100%;
@@ -22,6 +25,7 @@ const ProjectsContainer = styled.div`
       display: grid;
       grid-template-rows: repeat(5, 1fr);
       padding: 1%; 
+      z-index: 1000; 
       .github {
         width: 50px;
           height: 50px;

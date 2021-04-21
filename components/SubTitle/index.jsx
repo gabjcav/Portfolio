@@ -9,6 +9,7 @@ const SubTitle = styled.h2`
   font-weight: 300;
   font-size: 3rem;
   border-radius: 2px;
+  z-index: 9999;
   span {
     color: var(--light-green);
   }
@@ -19,14 +20,17 @@ const SubTitle = styled.h2`
   @media only screen and (max-width: 600px) {
     font-size: 1.5rem;
     width: 80%;
+    z-index: 1000;
   }
 
   @media only screen and (min-width: 601px) {
     font-size: 2rem;
+    z-index: 1000;
   }
 
   @media only screen and (min-width: 2300px) {
     font-size: 3em;
+    z-index: 1000;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
